@@ -1,0 +1,328 @@
+/* Background color */
+
+.canvas-renderer {
+    background: #201F24 !important;
+}
+
+/* Text color */
+
+.body {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.post-article .body h2 {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.post-title {
+    color: #fff !important;
+}
+
+.post-field.subtitle {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Notes background color */
+
+.notes-marker-icon {
+    color: #333332 !important;
+}
+
+.image-caption {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.notes-state li {
+    border: none !important;
+    background: transparent !important;
+}
+
+.link-secondary {
+    color: #fff !important;
+}
+
+/* Read Next */
+
+.post-to-post-icon {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.post-to-post-reason {
+    color: rgba(32, 31, 36, 0.7) !important;
+}
+
+.post-to-post-title {
+    color: rgba(32, 31, 36, 0.9) !important;
+}
+
+.post-to-post:hover .post-to-post-icon {
+    color: rgba(32, 31, 36, 0.9) !important;
+}
+
+/* Further reading */
+
+.follow-up-title {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.follow-up-link, .follow-up-title, .follow-up-description {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.follow-up-footer-item {
+   color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.follow-up-footer-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Written by */
+
+.link-primary {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.card {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Next in your Reading List */
+
+.post-preview {
+    background: #18171A !important;
+    border-top: 1px solid rgba(242, 242, 240, 0.5) !important;
+}
+
+.post-preview-with-image.post-preview-unfiltered {
+    background: rgba(0,0,0,0.3) !important;
+}
+
+.post-preview-with-image.post-preview-filtered {
+    background: rgba(0,0,0,0.3) !important;
+}
+
+.post-preview-title {
+    color: #fff !important;
+}
+
+.post-preview-subtitle {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* User */
+
+.background-white {
+    background: #201F24 !important;
+}
+
+.hero-description>a {
+    color: #fff !important;
+}
+
+/* User > header */
+
+.hero-title {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.hero-description {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Latest */
+
+.post-item-title>a {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.post-item-snippet>p {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Top 100 */
+
+/* Header background */
+
+.image-header-bleed, .image-home-header-bleed {
+    background: #18171A !important;
+}
+
+.ordered-posts .post-item-small:before {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Settings */
+
+.screen-content {
+    background: #201F24 !important;
+}
+
+.setting-item-input {
+    background: transparent !important;
+}
+
+.setting-item-title {
+    color: #fff !important;
+}
+
+.setting-item-input {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.setting-item-input[disabled] {
+    color: rgb(84, 84, 84) !important;
+}
+
+/* Search */
+
+.input-text-jumbo {
+    background: #201F24 !important;
+    color: #fff !important;
+}
+
+.input-text-jumbo::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.input-text-jumbo:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.input-text-jumbo::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.input-text-jumbo:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.card-description>a {
+    color: #fff !important;
+}
+
+/* Drafts */
+
+.nav-tabs-item.active .nav-tabs-anchor {
+    color: #fff !important;
+    border-top: 1px #dededc solid !important;
+}
+
+.nav-tabs {
+    border-top: 1px #666665 solid !important;
+}
+
+/* Editing */
+
+.metabar-message {
+    color: #fff !important;
+    background-color: #57ad68 !important;
+}
+
+.notes-list-fade {
+    background-image: none !important;
+}
+
+.notes-list-fade-bottom {
+    background-image: none !important;
+}
+
+.notes-author {
+    color: #fff !important;
+}
+
+.notes-content, .notes-editor {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.overlay {
+    background-color: rgba(28, 27, 31, 0.97) !important;
+}
+
+.overlay-title {
+    color: #fff !important;
+}
+
+.overlay-content {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.popover-inner-dark+.popover-arrow:after {
+    background: #2B2B29 !important;
+    border: none !important;
+}
+
+.popover-inner .input-text {
+    background: transparent;
+}
+
+@media screen and (min-width: 500px) {
+    .notes-state-dropdown:hover li {
+        background: #201F24 !important;
+    }
+    .notes-state-dropdown li:first-child {
+        border-top: 1px solid #f2f2f0 !important;
+    }
+    .notes-state-dropdown:hover li:first-child {
+        border-top: 1px solid #f2f2f0 !important;
+    }
+}
+
+/* Dashboard */
+
+.chart-wrapper {
+    background: #18171A !important;
+}
+
+.chart-title h1 {
+    color: #fff !important;
+}
+
+.chart-title small {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.chart-tabs .active button {
+    color: #fff !important;
+}
+
+.chart-tabs button {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Dashboard > Artcles */
+
+.sortable-table-wrapper h2 {
+    color: #fff !important;
+}
+
+.sortable-table-value {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.sortable-table-wrapper tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.sortable-table tr:hover td {
+    background: rgba(24, 23, 26, 0.5) !important;
+}
+
+.sortable-table-mute .active {
+    opacity: 1 !important;
+}
+
+.sortable-table .active:hover td, .sortable-table .active td {
+    background: #18171A !important;
+}
+
+/* Collections */
+
+#collection-search-input {
+    color: #fff !important;
+    background: #201F24 !important;
+}
+
+.zoom-overlay {
+    background: #18171A !important;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Medium Night Mode",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Modify the colors of medium.com to facilitate reading during bedtime.",
+  "homepage_url": "http://jfgoncalves.com/medium",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "*://*.medium.com/*"
+  ],
+  "web_accessible_resources": [
+    "css/night.css",
+    "js/swapStylesheets.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.medium.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "*://*.medium.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+/* Not the night mode stylesheet
+This sheet is only used to set needed inline elements, like the toggle switch */
+
+/* Extension icon in menu */
+
+.icon-night-mode {
+    display: block !important;
+    position: absolute !important;
+    left: 18px !important;
+    top: 12px !important;
+    width: 20px !important;
+    height: 20px !important;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAADC0lEQVRIDa1Wy2sTQRifmU3XpDZGhPYiqBctPi69+cCiB2/NE1tCAkLOQhFR0IMxAUEPFv0PlNqIhua1RfHSGrTgqRSKWNRDES0Ua6GHQtJus+Nv0m7YjttNDB1YZr5vvvn99nvMt0vI9shkMsfFY8p7PbtMwK6uzjSlhEGOmrq9nGmpVOpljD8ghF4VwIZhZGs1fi8SiXzbSyK2trZmcM5rJii82sQwTLndWU6FKx6PfwdYtFQqUAwlEAjHncBTqZS7r6/vDDzvZowtz87OfoauKp+RU9HIkQiXojAqHzDliWz2SE1V04pCBqHbzxiZQSDAkZoxbcQsp0I4ILAbRE450bT8gMHZS7yHdwuUv6lU9MGhoaGKlUSsRSq83s4aolPfMlOxqwcmQLFYvAgvJlEsHVs648fCws/e4eHhddPGboYnr7dSEaoXWcMjO+NsNqtSykcJYdskhOg6TzYjEVhyKhyJ3G4lRik7Zn2Jjmr1rVXebS2nQlxQh8GC0uayPxb7I+laEh2JOKcnrCicG4pV/p+1IxE6htsKhjAeyuVyR626VteORABZlIEUhV6Xda3IjkToRFMyCEr2pqa9Oivrm8mORNXqxnO0mg0rCNqOQqlnPJ/PX7Hqm62bXlhNK6bhRdIOCHflma7ro6q+Or/u8rkURTkJWxdK+51sv8MjdIFbskEgEEoTwjOyXsjIV8LtVt8zb8+Sx7Pvl6qy5NzcXNnOtuERqumCqrqm8Zb9oVDoo2ysabkbnLP7CN1BeQ/hrUD/dGTkSbJcLm/K+0KuE6HjXkY3fgH5MJ5FwyCxYDD4QRhYx9jY2AGfr2sAx87hTnWjPS3hrn1ZWVnNJhKJVautvKYTE8U7OPhQ3oBnt+HZY1nfrsz8/tAjES4AmHcGc+18uyRoxKfsXqZeDCInIlzCAB+za35/5JOdcTOd+Hx7POqk3d9UoxgESKFQuBsOh/8JYzMCsa9p46c5V6ZQFD0ojt+VyvqlaDQ6b57dQWQq252FJ/hXmMb3qx/F9LVdnJbOCc/sDP8C0e4pkd6EaCcAAAAASUVORK5CYII=') !important;
+	background-size: contain !important;
+}
+
+.night {
+    bottom: 0 !important;
+    position: absolute !important;
+    width: 100% !important;
+    background: #191918 !important
+}
+
+.super-night { /* Block selection on the <li>, mainly to avoid the automatic selection when you quickly toggle the switch multiple times */
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.night-mode:hover {
+    color: #b3b3b1 !important;
+}
+
+/* Toggle switch */
+
+label[for=toggle-night]:before {
+	content: '' !important;
+	display: block !important;
+	width: 32px !important;
+	height: 16px !important;
+	display: block !important;
+	border-radius: 99px !important;
+	position: relative !important;
+	z-index: 8 !important;
+	padding: 1px !important;
+}
+
+label[for=toggle-night]:before {
+	background: #4D4D4D !important;
+}
+
+#toggle-night:checked ~ label[for=toggle-night]:before {
+	background: #57ad68 !important;
+}
+
+/* 1 -Hide the inputs */
+input#toggle-night[type=checkbox] {
+	display: none !important;
+}
+
+/* 2 -Prepare labels */
+#cursor {
+	content: '' !important;
+	height: 12px !important;
+	display: block !important;
+	float: left !important;
+	width: 12px !important;
+	padding: 0px !important;
+	margin: -15px 4px !important;
+	border-radius: 99px !important;
+	background: #fff !important;
+
+	position: absolute !important;
+	z-index: 10 !important;
+}
+
+/* 3 -Prepare the fonts ? */
+label[for=toggle-night] {
+	display: block !important;
+	padding-top: 13px !important;
+	cursor: pointer !important;
+}
+
+/* Now, make it move */
+
+#toggle-night:checked ~ label[for=toggle-night] #cursor {
+	margin: -15px 18px !important;
+}
+
+
+label[for=toggle-night]:before,
+#cursor,
+#toggle-night:checked ~ label[for=toggle-night]:before {
+	-webkit-transition: all .2s !important;
+    -moz-transition: all .2s !important;
+    transition: all .2s !important;
+}
