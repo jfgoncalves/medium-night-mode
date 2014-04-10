@@ -326,7 +326,19 @@
     background: #18171A !important;
 }
 
-/* iOS fixes */
+@media screen and (min-width: 500px) {
+    .notes-state-dropdown:hover li {
+        background: #201F24 !important;
+    }
+    .notes-state-dropdown li:first-child {
+        border-top: 1px solid #f2f2f0 !important;
+    }
+    .notes-state-dropdown:hover li:first-child {
+        border-top: 1px solid #f2f2f0 !important;
+    }
+}
+
+/* iOS fixes 
 
 .post-page-wrapper, .post-page-wrapper-inner {
     background: #201F24 !important;
@@ -362,4 +374,4 @@ body.browser-safari.os-ios {
     background: #fff !important;
 }
 
-}
+} */
