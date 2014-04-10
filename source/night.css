@@ -42,6 +42,10 @@
     color: rgba(255, 255, 255, 0.6) !important;
 }
 
+.notes-list {
+    background: #201F24 !important;
+}
+
 /* Read Next */
 
 .post-to-post-icon {
@@ -86,6 +90,12 @@
 
 .card {
     color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Avatars on recommend */
+
+.avatar, .avatar-chromeless {
+    background: #201F24 !important;
 }
 
 /* Next in your Reading List */

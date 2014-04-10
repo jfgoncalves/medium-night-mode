@@ -8,6 +8,7 @@
 
 .body {
     color: rgba(255, 255, 255, 0.75) !important;
+    background: #201F24 !important;
 }
 
 .post-article .body h2 {
@@ -38,7 +39,11 @@
 }
 
 .link-secondary {
-    color: #fff !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.notes-list {
+    background: #201F24 !important;
 }
 
 /* Read Next */
@@ -85,6 +90,12 @@
 
 .card {
     color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Avatars on recommend */
+
+.avatar, .avatar-chromeless {
+    background: #201F24 !important;
 }
 
 /* Next in your Reading List */
@@ -256,18 +267,6 @@
     background: transparent;
 }
 
-@media screen and (min-width: 500px) {
-    .notes-state-dropdown:hover li {
-        background: #201F24 !important;
-    }
-    .notes-state-dropdown li:first-child {
-        border-top: 1px solid #f2f2f0 !important;
-    }
-    .notes-state-dropdown:hover li:first-child {
-        border-top: 1px solid #f2f2f0 !important;
-    }
-}
-
 /* Dashboard */
 
 .chart-wrapper {
@@ -325,4 +324,42 @@
 
 .zoom-overlay {
     background: #18171A !important;
+}
+
+/* iOS fixes */
+
+.post-page-wrapper, .post-page-wrapper-inner {
+    background: #201F24 !important;
+}
+
+body.browser-safari.os-ios {
+    background: #201F24 !important;
+}
+
+.container {
+    background: #201F24 !important;
+}
+
+@media screen and (max-width: 500px) {
+
+.notes-edit, .notes-note-inner {
+    background: #201F24 !important;
+}
+
+.notes-container-scroller {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.slide-indicator-fraction, .slide-indicators {
+    background: transparent !important;
+}
+
+.slide-indicator {
+    background: rgba(255, 255, 255, 0.3) !important;
+}
+
+.slide-indicator-active {
+    background: #fff !important;
+}
+
 }
