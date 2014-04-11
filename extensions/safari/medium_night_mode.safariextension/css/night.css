@@ -8,7 +8,6 @@
 
 .body {
     color: rgba(255, 255, 255, 0.75) !important;
-    background: #201F24 !important;
 }
 
 .post-article .body h2 {
@@ -248,6 +247,10 @@
 
 .overlay {
     background-color: rgba(28, 27, 31, 0.97) !important;
+}
+
+.overlay-close:hover {
+    color: #fff !important;
 }
 
 .overlay-title {
