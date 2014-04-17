@@ -1,6 +1,6 @@
 {
   "name": "Medium Night Mode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "manifest_version": 2,
   "description": "Modify the colors of medium.com to facilitate reading during bedtime.",
   "homepage_url": "http://jfgoncalves.com/medium",

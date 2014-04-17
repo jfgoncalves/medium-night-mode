@@ -1,5 +1,9 @@
 /* Background color */
 
+html {
+    background: #201F24 !important;
+}
+
 .canvas-renderer {
     background: #201F24 !important;
 }
@@ -333,12 +337,6 @@
     .notes-state-dropdown:hover li:first-child {
         border-top: 1px solid #f2f2f0 !important;
     }
-}
-
-/* Menu */
-
-ul.notifications-list {
-    margin-bottom: 50px;
 }
 
 /* iOS fixes 
