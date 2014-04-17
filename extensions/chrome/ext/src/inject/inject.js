@@ -6,7 +6,7 @@ var newSheet = document.createElement("link"); // Creating a link element
 newSheet.type = "text/css";
 newSheet.id = "night-theme-css";
 newSheet.rel = "stylesheet";
-newSheet.href = chrome.extension.getURL('css/night.css');
+newSheet.href = chrome.extension.getURL('css/night.css'); // Change this depending on the browser
 newSheet.disabled = true; // Disabling the stylesheet by default
 head.appendChild(newSheet); // Initializing the new sheet
 
@@ -14,10 +14,11 @@ head.appendChild(newSheet); // Initializing the new sheet
 
 var js = document.createElement("script"); // Creating a <script> element
 js.type = "text/javascript";
-js.src = chrome.extension.getURL('js/swapStylesheets.js');
+js.src = chrome.extension.getURL('js/swapStylesheets.js'); // Change this depending on the browser
 head.appendChild(js); // Initializing the javascript part
 
 // Setting the list item in the menu
+
 
 var nightModeLi = document.createElement('ul'); // Creating a new <li> item
 nightModeLi.className = "site-nav-list night"; // Setting a class to it

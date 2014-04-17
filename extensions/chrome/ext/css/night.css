@@ -152,12 +152,6 @@
 
 /* Top 100 */
 
-/* Header background */
-
-.image-header-bleed, .image-home-header-bleed {
-    background: #18171A !important;
-}
-
 .ordered-posts .post-item-small:before {
     color: rgba(255, 255, 255, 0.75) !important;
 }
@@ -339,6 +333,12 @@
     .notes-state-dropdown:hover li:first-child {
         border-top: 1px solid #f2f2f0 !important;
     }
+}
+
+/* Menu */
+
+ul.notifications-list {
+    margin-bottom: 50px;
 }
 
 /* iOS fixes 

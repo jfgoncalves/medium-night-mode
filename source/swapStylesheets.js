@@ -35,4 +35,9 @@ function toggleSwitch() {
     }
 }
 
-window.onload = toggleSwitch();
+window.onload = function () {
+    toggleSwitch();
+    var notifs = document.getElementsByClassName("notifications-list")[0];
+    var trigger = document.getElementsByClassName("night")[0];
+    document.getElementsByClassName("site-nav-scrollable-container")[0].insertBefore(notifs, trigger);
+};

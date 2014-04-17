@@ -19,6 +19,7 @@ head.appendChild(js); // Initializing the javascript part
 
 // Setting the list item in the menu
 
+
 var nightModeLi = document.createElement('ul'); // Creating a new <li> item
 nightModeLi.className = "site-nav-list night"; // Setting a class to it
 nightModeLi.innerHTML = '<li class="site-nav-list-item navigable-list-item super-night"><span class="site-nav-list-item-btn night-mode"><span class="icon-night-mode"></span>Night Mode</span><div class="site-nav-list-item-btn-secondary style-switch"><input type="checkbox" id="toggle-night" onChange="swapSheets();" name="check_two" /><label for="toggle-night"><div id="cursor"></div></label></div></li>'; // Setting the content
