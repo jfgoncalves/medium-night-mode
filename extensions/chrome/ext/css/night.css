@@ -339,6 +339,151 @@ html {
     }
 }
 
+.container {
+    background: #201F24 !important;
+}
+
+.input-textarea {
+    background: #201F24 !important;
+}
+
+.post-meta {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.reading-list-status .icons-reading-list {
+    color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.reading-list-status:hover .icons-reading-list {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.reading-list-status:hover .reading-list-status-message {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.tier-1 .body a {
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 50%, rgba(255,255,255,0.6) 50%) !important;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(255,255,255,0.6) 50%) !important;
+}
+
+.cards-heading {
+    color: rgba(255, 255, 255, 0.3) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.post-collaborator-visible .post-collaborator-link {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.card-additional:before {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.follow-up-link-prompt {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.follow-up-start .icons-add-further-reading:before {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.post-footer-secondary-actions .btn .icons:before {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.post-footer-secondary-actions .btn:hover .icons:before {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.grid-breaking .image-caption:before {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.default-value {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.notes-container .btn-chromeless {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.notes-disclaimer {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.notes-container .btn-chromeless:hover, .notes-container .btn-primary {
+    color: #57ad68;
+}
+
+.footer .btn-link {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.icons-heart:before {
+    color: rgb(248, 75, 75);
+}
+
+.post-item-connections {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.bestof-actions {
+    color: rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.notes-link {
+    color: rgba(255, 253, 253, 0.5);
+}
+
+.btn .notes-add-icon:before {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.btn:focus .icons:before, .btn:active .icons:before, .btn:hover .icons:before {
+    color: rgba(255, 255, 255, 0.44);
+}
+
+.post-preview-description {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.post-item-meta {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.metabar-text {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.bucket-label, .bucket-label>a {
+    color: rgba(255, 255, 255, 0.3)
+}
+
+.bucket-label {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.bucket-item:last-child .post-item-connections {
+    border-bottom: 0;
+}
+
+.input-group .icons:first-child {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.input-text {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 /* iOS fixes 
 
 .post-page-wrapper, .post-page-wrapper-inner {
