@@ -8,6 +8,26 @@ html {
     background: #201F24 !important;
 }
 
+.btn {
+    color: rgba(255, 255, 255, 0.44) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.btn:focus, .btn:active, .btn:hover {
+    color: rgba(255, 255, 255, 0.88) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.btn .icons::before {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.btn:focus .icons::before, .btn:active .icons::before, .btn:hover .icons::before {
+    color: rgba(255, 255, 255, 0.88) !important;
+}
+
+
+
 /* Text color */
 
 .body {
@@ -482,6 +502,52 @@ html {
 
 .input-text {
     border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.notes-container .btn-chromeless:hover, .notes-container .btn-primary {
+    color: #57ad68 !important;
+}
+
+.notes-note {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.post-more-actions-popover li>a, .post-more-actions-popover li:hover>a, .post-more-actions-popover li:hover .icons:before {
+    color: rgba(0,0,0,0.6) !important;
+}
+
+.post-more-actions-popover .icons:before {
+    color: rgba(0,0,0,0.3) !important;
+}
+
+.post-article .body hr {
+    border-top: 1px solid rgba(255,255,255,0.15) !important;
+}
+
+.setting-item-desc, .setting-item-input-prefix, .nav-tabs-anchor {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.setting-item-link {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.bucket-empty {
+    color: rgba(255, 255, 255, 0.44) !important;
+}
+
+.icons-add-circled:before {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.list-choice-item>.btn-link {
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Removing unwanted borders */
+
+.btn-chromeless, .btn-chromeless:hover, .input-text-borderless, .input-text-borderless:hover, .footer .btn-link, .input-text-chromeless, .input-text-chromeless:hover {
+    border: 0 !important;
 }
 
 /* iOS fixes 
