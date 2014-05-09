@@ -437,10 +437,6 @@ html {
     color: #57ad68;
 }
 
-.footer .btn-link {
-    color: rgba(255, 255, 255, 0.3);
-}
-
 .footer {
     border-top: 1px solid rgba(255,255,255,0.05);
 }
@@ -544,10 +540,76 @@ html {
     color: rgba(0, 0, 0, 0.9) !important;
 }
 
+.reading-list-status.on-reading-list .icons-reading-list, .btn-primary.btn-link:hover, .btn-primary.btn-link:active, .btn-primary.btn-link:focus, .btn-primary.btn-chromeless:hover, .btn-primary.btn-chromeless:active, .btn-primary.btn-chromeless:focus {
+    color: #57ad68 !important;
+}
+
 /* Removing unwanted borders */
 
-.btn-chromeless, .btn-chromeless:hover, .input-text-borderless, .input-text-borderless:hover, .footer .btn-link, .input-text-chromeless, .input-text-chromeless:hover {
+.btn-chromeless, .btn-chromeless:hover, .input-text-borderless, .input-text-borderless:hover, .footer .btn-link, .input-text-chromeless, .input-text-chromeless:hover, .follow-up-editor-footer .btn {
     border: 0 !important;
+}
+
+.metabar .btn-set>.btn {
+    color: rgba(255, 255, 255, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+}
+
+.metabar .btn-set>.btn {
+    color: rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+.footer .btn-link {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.stats-title-page {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.stats-title h2 {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.stats-title-user, .stats-title-chart {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.chart-helper {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.chart-tabs li {
+    border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+}
+
+.chart-tabs button {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+line.bargraph-grid-line {
+    stroke: rgba(255, 255, 255, 0.3);
+}
+
+.bargraph-x-axis .bargraph-y-axis, text {
+    fill: rgba(255, 255, 255, 0.3);
+}
+
+line.bargraph-grid-line:first-child {
+    stroke: rgba(255, 255, 255, 0.1);
+}
+
+.chart-page-vertical-divider {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sortable-table-wrapper button {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sortable-table-link, .sortable-table-text {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 /* iOS fixes 
